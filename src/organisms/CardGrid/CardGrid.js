@@ -1,15 +1,14 @@
-import { Grid } from "@mui/material";
+import { Masonry } from "@mui/lab";
+import { Box } from "@mui/material";
 import React from "react";
 
 const CardGrid = (props) => {
   return (
-    <Grid
-      container
-      spacing={{ xs: 2, md: 3 }}
-      columns={{ xs: 4, sm: 8, md: 12 }}
-    >
-      {props.children}
-    </Grid>
+    <Box maxWidth="md">
+      <Masonry columns={3} spacing={1}>
+        {props.children}
+      </Masonry>
+    </Box>
   );
 };
 
