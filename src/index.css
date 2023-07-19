@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "BrandonBold";
+  src: local("BrandonBold"),
+    url("./static/assets/fonts/Brandon_bld.otf") format("otf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "NotoColorEmoji-Regular";
+  src: url("./static/assets/fonts/NotoColorEmoji-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "TTCommons-Demibold";
+  src: url("./static/assets/fonts/ttcommons-demibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TTCommons-Medium";
+  src: url("./static/assets/fonts/ttcommons-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TTCommons-Regular";
+  src: url("./static/assets/fonts/ttcommons-regular.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  font-family: "TTCommons-Regular", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
