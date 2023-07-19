@@ -1,9 +1,9 @@
 import { Box, Typography } from "@mui/material";
 import { useState } from "react";
-import { ExpandButton } from "./ExpandButton";
+import { ExpandButton } from "../ExpandButton/ExpandButton";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export const EllipsisWrapper = ({ children, wrapLength = 150 }) => {
+const EllipsisWrapper = ({ children, wrapLength = 150 }) => {
   const text = children;
   const [expanded, setExpanded] = useState(false);
 
@@ -26,3 +26,4 @@ export const EllipsisWrapper = ({ children, wrapLength = 150 }) => {
     </Box>
   );
 };
+export default EllipsisWrapper;

@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
-import { EllipsisWrapper } from "../../atoms/EllipsisWrapper";
+import EllipsisWrapper from "../../atoms/EllipsisWrapper";
 
 export default function StudentCard(props) {
   const {

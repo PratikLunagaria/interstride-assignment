@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <CardGrid>
         {userData.map((data) => (
-          <Grid item xs={2} sm={4} md={4}>
+          <Grid item xs={2} sm={4} md={4} key={data.id}>
             <StudentCard data={data} />
           </Grid>
         ))}
